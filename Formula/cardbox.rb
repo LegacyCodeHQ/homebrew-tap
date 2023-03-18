@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.2.0 at 2023-03-18T13:12:36.360926+05:30
+# Generated with JReleaser 1.2.0 at 2023-03-18T13:23:51.133892+05:30
 class Cardbox < Formula
   desc "Create JARs from Android projects for jQAssistant."
   homepage "https://github.com/redgreenio/cardbox"
   url "https://github.com/redgreenio/cardbox/releases/download/cardbox-0.1.0/cardbox-0.1.0.zip"
   version "0.1.0"
-  sha256 "2aa903352c33aaca3f53553975824388b774efb81fb37b76fcc17dae36c0b6c9"
+  sha256 "dcc6af35b9d547f9452ae3a70e3d8e7537c1e3a069c43849d6c7858b70249b91"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
