@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.2.0 at 2023-05-18T18:19:22.499786+05:30
+# Generated with JReleaser 1.2.0 at 2023-05-19T07:39:09.163689+05:30
 class Twd < Formula
   desc "Understand and break down large classes without breaking a sweat."
   homepage "https://github.com/LegacyCodeHQ/tumbleweed"
-  url "https://github.com/LegacyCodeHQ/tumbleweed/releases/download/twd-0.45.0/twd-0.45.0.zip"
-  version "0.45.0"
-  sha256 "18e636dc2dc9a8ced454cd294ca5cb3af003cc033346ec5f9e1d663e0c3bc5a8"
+  url "https://github.com/LegacyCodeHQ/tumbleweed/releases/download/twd-0.46.0/twd-0.46.0.zip"
+  version "0.46.0"
+  sha256 "9f3a8eb8bfc9e8837bd1e464496ca39f86d06b3005534e1ee38a573524680ee6"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
@@ -16,6 +16,6 @@ class Twd < Formula
 
   test do
     output = shell_output("#{bin}/twd --version")
-    assert_match "0.45.0", output
+    assert_match "0.46.0", output
   end
 end
