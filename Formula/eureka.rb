@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.2.0 at 2023-06-08T12:47:32.33102+05:30
+# Generated with JReleaser 1.2.0 at 2023-06-15T08:55:08.243111+05:30
 class Eureka < Formula
   desc "Understand and break down large classes without breaking a sweat."
   homepage "https://github.com/LegacyCodeHQ/eureka"
-  url "https://github.com/LegacyCodeHQ/eureka/releases/download/eureka-0.61.0/eureka-0.61.0.zip"
-  version "0.61.0"
-  sha256 "7423a925d1d516c715fc4399f829643e5c1aaa248dfd8ef3a147942fc5762156"
+  url "https://github.com/LegacyCodeHQ/eureka/releases/download/eureka-0.62.0/eureka-0.62.0.zip"
+  version "0.62.0"
+  sha256 "a6db841f011abaf5dcf7cfc387348e177e17192cb6c6ef3509a6b3495e6360a5"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
@@ -16,6 +16,6 @@ class Eureka < Formula
 
   test do
     output = shell_output("#{bin}/eureka --version")
-    assert_match "0.61.0", output
+    assert_match "0.62.0", output
   end
 end
