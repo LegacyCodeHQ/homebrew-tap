@@ -1,26 +1,26 @@
 class Sanity < Formula
   desc "CLI tool for analyzing and visualizing dependency graphs"
   homepage "https://github.com/LegacyCodeHQ/sanity"
-  version "0.7.2"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.7.2/sanity_0.7.2_darwin_arm64.tar.gz"
-      sha256 "1a3062d47d4823cad08882eeff8dce67b76e03ab3253ef57e5af08a5d5ff5441"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.8.0/sanity_0.8.0_darwin_arm64.tar.gz"
+      sha256 "167ef8247e0e78533838a51aca5987b8a228544d0600cf508185f1d327dba2b0"
     else
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.7.2/sanity_0.7.2_darwin_amd64.tar.gz"
-      sha256 "737d3d4c3140d2f625c52179c4193c79f9157bc3a710d7a689153060e72b9f13"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.8.0/sanity_0.8.0_darwin_amd64.tar.gz"
+      sha256 "160a3b5918165ba9e13696bbc00f56222f76dda661f2e02d9efa48b38ea3b0a6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.7.2/sanity_0.7.2_linux_arm64.tar.gz"
-      sha256 "0b0effd2fb69b3b78ab90d54b755351751a71cb13e4be2b255f35e1c43a086fa"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.8.0/sanity_0.8.0_linux_arm64.tar.gz"
+      sha256 "d5a03c0b30381c4d687468ff4ffda787b0dcdf303b087c6933dade4fc4ccaa58"
     else
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.7.2/sanity_0.7.2_linux_amd64.tar.gz"
-      sha256 "9860df7274c053e35383ed8f3ea0cb36d59af5549233c4607940d01cb406a4d4"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.8.0/sanity_0.8.0_linux_amd64.tar.gz"
+      sha256 "03a69161de330218e9bc23df276c0a03f53dc632272af9dbabac7a57f6000987"
     end
   end
 
