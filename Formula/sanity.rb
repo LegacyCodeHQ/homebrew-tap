@@ -1,26 +1,26 @@
 class Sanity < Formula
   desc "CLI tool for analyzing and visualizing dependency graphs"
   homepage "https://github.com/LegacyCodeHQ/sanity"
-  version "0.12.2"
+  version "0.12.3"
   license "AGPL-3.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.2/sanity_0.12.2_darwin_arm64.tar.gz"
-      sha256 "fe8ddd756e6a70d808bc2338ddf9eb139d7501c3528df55b27a6f9ea676abab9"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.3/sanity_0.12.3_darwin_arm64.tar.gz"
+      sha256 "e73de92049905d1c6e4ad4f16435b97414af2133b49b993b27a208f4960a309b"
     else
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.2/sanity_0.12.2_darwin_amd64.tar.gz"
-      sha256 "3ad06907704e9e46f08e88d7a5f7d67c507efc1c809ee01ec6e42d0df1a5d61e"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.3/sanity_0.12.3_darwin_amd64.tar.gz"
+      sha256 "c776e57358405eaae8dec98c0dae7d1d55b31b7bacb1712635b6c14a9ee9356b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.2/sanity_0.12.2_linux_arm64.tar.gz"
-      sha256 "64f7214e273b441248a4bc4c337f37ce00d046d4eeb92f4c6a884a633842462e"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.3/sanity_0.12.3_linux_arm64.tar.gz"
+      sha256 "2439a79984b8f1521fadfb8b6cde7e51bb838ca2611c5151ec494ebb0ccd0bfd"
     else
-      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.2/sanity_0.12.2_linux_amd64.tar.gz"
-      sha256 "6187c0fc3ea805480c52368ba14ac09f6e7fbbe3b39b96c4820df0b455770678"
+      url "https://github.com/LegacyCodeHQ/sanity/releases/download/v0.12.3/sanity_0.12.3_linux_amd64.tar.gz"
+      sha256 "b40bd1745e9788e028032c7fef8bdacde2cc78b99859d227624bb45790cb74c1"
     end
   end
 
