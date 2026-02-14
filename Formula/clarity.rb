@@ -1,26 +1,26 @@
 class Clarity < Formula
   desc "CLI tool for analyzing and visualizing dependency graphs"
   homepage "https://github.com/LegacyCodeHQ/clarity"
-  version "0.15.2"
+  version "0.15.3"
   license "AGPL-3.0-only"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.2/clarity_0.15.2_darwin_arm64.tar.gz"
-      sha256 "3d93795a75e637b751942c05f9bb2cd6f40055164b6f59c6395d37c61f94da60"
+      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.3/clarity_0.15.3_darwin_arm64.tar.gz"
+      sha256 "a384b64390b4eefa2ce7c8be8054e292816ecb2d82d439b81bffe3b20efd8fae"
     else
-      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.2/clarity_0.15.2_darwin_amd64.tar.gz"
-      sha256 "712cb5bbcbd4a08204646cf059ae24d39c69fe9e99f3b7084d4f8074773ca31b"
+      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.3/clarity_0.15.3_darwin_amd64.tar.gz"
+      sha256 "29abf62d841006c6cdad8b84ee2e48f77914a2ba205a26e3879488420a19bf29"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.2/clarity_0.15.2_linux_arm64.tar.gz"
-      sha256 "4e096e477217310126793d8bdde613c230c207b0928d424043d886f15b23d250"
+      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.3/clarity_0.15.3_linux_arm64.tar.gz"
+      sha256 "a35eb9eeaaef83d231c6c7fe2cef3f2ffed1db3feb8d8b352d1515981a55e959"
     else
-      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.2/clarity_0.15.2_linux_amd64.tar.gz"
-      sha256 "dc23e326fd4d0a3b14942481814d726b28ae6039cdcaf0090219cb2b3a4fe222"
+      url "https://github.com/LegacyCodeHQ/clarity/releases/download/v0.15.3/clarity_0.15.3_linux_amd64.tar.gz"
+      sha256 "28754ba35c2a64180b5128eafc902755c15ad50e93f6f677dc48b0200cac52b7"
     end
   end
 
